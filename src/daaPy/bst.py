@@ -74,6 +74,7 @@ def delete(root, val) :
             transplant(root, temp, y)
             y.lchild = temp.lchild
             y.lchild.parent = y
+        print("Value Deleted From Tree!")
     else :
         print("Value not present in tree!")
 
